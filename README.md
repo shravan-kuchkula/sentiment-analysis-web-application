@@ -31,10 +31,11 @@ The user is prompted to enter a review or any piece of text for that matter.
 
 ## Structure
 ```
-SageMaker Project.ipynb - Contains the instructions to download data, preprocess it, train the model, deploy the model.
-train - Directory contains train.py and model.py. It also contains requirements.txt for the training container to initialize.
-serve - Directory contains predict.py which makes use of the trained model to send realtime predictions.
-website - Contains the index.html pointing to the API gateway endpoint URL.
+|-
+  |- SageMaker Project.ipynb - detailed instructions for recreating this project.
+  |- train - contains files for launching the training job.
+  |- serve - contains predict.py which makes use of the trained model to send realtime predictions.
+  |- website - contains the index.html pointing to the API gateway endpoint URL.
 ```
 
 
